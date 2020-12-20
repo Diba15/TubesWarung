@@ -11,8 +11,8 @@ import java.sql.*;
  */
 public interface DBData {
     String DB_URL = "jdbc:mysql://localhost/tubeswarung?serverTimezone=Asia/Jakarta";
-    String DB_USER = "Diba15";
-    String DB_PASS = "Tunjang1";
+    String DB_USER = "root";
+    String DB_PASS = "";
     
     public abstract void CUDData(String query);
     public abstract ResultSet readData(String query);
